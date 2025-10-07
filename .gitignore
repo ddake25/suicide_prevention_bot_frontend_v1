@@ -21,3 +21,18 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# ---- secrets / certs ----
+certs/
+*.pem
+*.key
+*.crt
+*.p12
+*.der
+
+mkcert.exe
+.venv/
+venv/
+.env
+.env.*
+*.env
